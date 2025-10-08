@@ -101,7 +101,7 @@ export default function RealEstateLanding() {
             description={
               "Une villa moderne avec vue sur l'océan, offrant luxe et confort dans un cadre exceptionnel."
             }
-            imageUrl={"/villa-agadir.jpg"}
+            imageUrl={"/appartment/villa-agadir.jpg"}
             rating={4.8}
           />
 
@@ -110,7 +110,7 @@ export default function RealEstateLanding() {
             description={
               "Architecture contemporaine alliant tradition et modernité dans un environnement paisible."
             }
-            imageUrl={"/villa-tanger.jpg"}
+            imageUrl={"/appartment/villa-tanger.jpg"}
             rating={4.9}
           />
           <Card
@@ -118,7 +118,7 @@ export default function RealEstateLanding() {
             description={
               "Résidence de prestige au cœur de Casablanca, parfaite pour un vie urbaine raffinée."
             }
-            imageUrl={"/villa-casa.jpg"}
+            imageUrl={"/appartment/villa-casa.jpg"}
             rating={3.9}
           />
         </div>
@@ -219,7 +219,7 @@ export default function RealEstateLanding() {
             </div>
           </div>
           <img
-            src="/company.jpg"
+            src="/appartment/company.jpg"
             alt="Real estate professionals"
             className="company-image"
           />
@@ -231,7 +231,7 @@ export default function RealEstateLanding() {
         <h2 className="section-title">CONTACT US</h2>
         <div className="contact-container">
           <img
-            src="/contact_img.jpg"
+            src="/appartment/contact_img.jpg"
             alt="Contact villa"
             className="contact-image"
           />
@@ -287,7 +287,7 @@ export default function RealEstateLanding() {
       {/* Location Section */}
       <section className="location">
         <h2 className="section-title">OUR LOCALISATION</h2>
-        <img src="/map.png" alt="Morocco map" className="map-image" />
+        <img src="/appartment/map.png" alt="Morocco map" className="map-image" />
       </section>
 
       {/* Footer */}
@@ -296,7 +296,7 @@ export default function RealEstateLanding() {
           <div className="footer-grid">
             <div className="connect-section">
               <div className="footer-brand">
-                <img src="/logo_aprtement.svg" alt="logo_icon" />
+                <img src="/appartment/logo_aprtement.svg" alt="logo_icon" />
                 <span className="logo_title" style={{ color: "#fff" }}>
                   IMMOBILIER
                 </span>
