@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <div className="header">
       <div className="logo">
-        <img src="/logo_aprtement.svg" alt="logo_icon" />
+        <img src="/appartment/logo_aprtement.svg" alt="logo_icon" />
         <span className="logo_title">IMMOBILIER</span>
       </div>
       <nav className="nav">
