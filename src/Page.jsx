@@ -159,7 +159,7 @@ export default function RealEstateLanding() {
       </section>
 
       {/* Decorative  */}
-      <div className="decoration-container"><img src="appartment/decoration.png" className="decorative-divider" /></div>
+      <div className="decoration-container"><img src="/appartment/decoration.png" className="decorative-divider" /></div>
 
       {/* Company Section */}
       <section className="company">
