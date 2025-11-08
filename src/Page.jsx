@@ -32,13 +32,21 @@ export default function RealEstateLanding() {
     return () => clearInterval(interval);
   }, []);
 
+  const slideBackgrounds = [
+    "/appartment/appartement5.jpg",
+    "/appartment/appartement2.jpg",
+    "/appartment/appartement3.jpg",
+  ];
+
   return (
     <div className="Landing">
       {/* Header animé */}
-      <Header />
+      
 
       {/* Hero Section */}
       <section className="hero">
+        <Header />
+        <img src={slideBackgrounds[activeSlide]} className="hero-background" />
         <div className="hero-overlay">
           <div className="hero-content">
             <h1 className="hero-title">
@@ -116,13 +124,13 @@ export default function RealEstateLanding() {
           <Card
             title={"Villa Harmonie à Tanger"}
             description={"Architecture contemporaine alliant tradition et modernité dans un environnement paisible."}
-            imageUrl={"/appartment/villa-tanger.jpg"}
+            imageUrl={"appartment/villa-tanger.jpg"}
             rating={4.9}
           />
           <Card
             title={"Villa à Dar Dour CASABLANCA"}
             description={"Résidence de prestige au cœur de Casablanca, parfaite pour un vie urbaine raffinée."}
-            imageUrl={"/appartment/villa-casa.jpg"}
+            imageUrl={"appartment/villa-casa.jpg"}
             rating={3.9}
           />
         </div>
@@ -130,7 +138,7 @@ export default function RealEstateLanding() {
 
       {/* Featured Villa */}
       <section className="featured-villa">
-        <img src="villaO.jpg" alt="Villa Oasis à Marrakech" className="villa-image" />
+        <img src="appartment/appartement.jpg" alt="Villa Oasis à Marrakech" className="villa-image" />
         <div className="villa-details">
           <h2 className="villa-title">VILLA OASIS À MARRAKECH</h2>
           <p className="villa-description">
@@ -151,7 +159,7 @@ export default function RealEstateLanding() {
       </section>
 
       {/* Decorative  */}
-      <div className="decoration-container"><img src="./decoration.png" className="decorative-divider" /></div>
+      <div className="decoration-container"><img src="appartment/decoration.png" className="decorative-divider" /></div>
 
       {/* Company Section */}
       <section className="company">
@@ -204,7 +212,7 @@ export default function RealEstateLanding() {
                   <option value="vente">Vente</option>
                 </select>
               </div>
-              <button className="btn-primary">Send message</button>
+              <button className="contact-btn">Send message</button>
             </form>
           </div>
         </div>
