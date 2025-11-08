@@ -124,13 +124,13 @@ export default function RealEstateLanding() {
           <Card
             title={"Villa Harmonie à Tanger"}
             description={"Architecture contemporaine alliant tradition et modernité dans un environnement paisible."}
-            imageUrl={"appartment/villa-tanger.jpg"}
+            imageUrl={"/appartment/villa-tanger.jpg"}
             rating={4.9}
           />
           <Card
             title={"Villa à Dar Dour CASABLANCA"}
             description={"Résidence de prestige au cœur de Casablanca, parfaite pour un vie urbaine raffinée."}
-            imageUrl={"appartment/villa-casa.jpg"}
+            imageUrl={"/appartment/villa-casa.jpg"}
             rating={3.9}
           />
         </div>
@@ -138,7 +138,7 @@ export default function RealEstateLanding() {
 
       {/* Featured Villa */}
       <section className="featured-villa">
-        <img src="appartment/appartement.jpg" alt="Villa Oasis à Marrakech" className="villa-image" />
+        <img src="/appartment/appartement.jpg" alt="Villa Oasis à Marrakech" className="villa-image" />
         <div className="villa-details">
           <h2 className="villa-title">VILLA OASIS À MARRAKECH</h2>
           <p className="villa-description">
